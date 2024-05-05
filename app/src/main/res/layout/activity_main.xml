@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:layout_margin="15dp"
+    android:background="#FFFFFF"
+    >
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="দোকানের হিসাব অ্যাপ"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:textColor="#FF1100"
+        android:textStyle="bold"
+        android:layout_marginTop="50dp"
+        >
+    </TextView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#000000"
+        >
+    </View>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="কেনা দাম কত?"
+        android:textSize="25dp"
+        android:gravity="left"
+        android:textColor="#000000"
+        android:layout_marginTop="60dp"
+        >
+    </TextView>
+
+
+    <EditText
+        android:id="@+id/edBuy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="কেনা দাম লিখুনঃ "
+        android:background="@drawable/circle_transparent"
+        android:padding="15dp"
+        android:inputType="numberDecimal"
+        >
+    </EditText>
+
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="কত টাকায় বিক্রি করেছেন?"
+        android:textSize="25dp"
+        android:gravity="left"
+        android:textColor="#000000"
+        android:layout_marginTop="15dp"
+        >
+    </TextView>
+
+
+    <EditText
+        android:id="@+id/edsell"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="বিক্রি দাম লিখুনঃ "
+        android:background="@drawable/circle_transparent"
+        android:padding="15dp"
+        android:inputType="numberDecimal"
+        >
+    </EditText>
+
+
+
+    <Button
+        android:id="@+id/calculateBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="হিসাব করুন!"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="#FF9800"
+        >
+    </Button>
+
+
+
+
+    <TextView
+        android:id="@+id/tvDisplay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="25dp"
+        android:gravity="left"
+        android:textColor="#FF5722"
+        android:layout_marginTop="25dp"
+        android:textStyle="bold"
+        android:padding="25dp"
+        >
+    </TextView>
+
+
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="©2024 All Rights Reserved By\nAminul Islam | aiSoft"
+        android:textSize="18dp"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:layout_marginTop="100dp"
+        >
+    </TextView>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
